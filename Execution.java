@@ -12,9 +12,20 @@ public class Execution {
             System.out.println("enter the "+i+" value of array : ");
             arr[i] = sc.nextInt();
         }
-        bs.sortMethod1(arr);
-        //bs.sortMethod2(arr);
-        //bs.sortMethod3(arr);
-       // System.out.println("Sorted array is : " + Arrays.toString(arr));
+        System.out.println("Enter 1 to sort from method 1 \n     2  for method 2\n     3 for method 3");
+        int a = sc.nextInt();
+        if (a == 1){
+            bs.sortMethod1(arr);
+        }
+        else if (a == 2) {
+            bs.sortMethod2(arr);
+        }
+        else if(a == 3) {
+            bs.sortMethod3(arr);
+        }
+        else    {
+            System.out.println("ENter valid number ");
+        }
+       System.out.println("Sorted array is : " + Arrays.toString(arr));
 }
 }
