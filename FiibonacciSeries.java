@@ -17,7 +17,7 @@ public class FiibonacciSeries {
     public static void main(String[] args) {
         FiibonacciSeries fb = new FiibonacciSeries();
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the no : ");
+        System.out.println("Enter the maximum number to find fibonacci series: ");
         int n = sc.nextInt();
         for (int i = 1; i <= n; i++) {
             System.out.print(fibo(i) + " ");
