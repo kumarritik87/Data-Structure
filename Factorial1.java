@@ -10,7 +10,6 @@ public class Factorial1 {
         }
 
     }
-
     public static void main(String[] args) {
         Factorial1 obj = new Factorial1();
         Scanner sc = new Scanner(System.in);
